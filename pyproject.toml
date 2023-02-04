@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "goit-pyweb-hw-7"
+version = "0.1.0"
+description = ""
+authors = ["fyodor <fyodor.shevchenko@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_pyweb_hw_7"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.1"
+alembic = "^1.9.2"
+psycopg2 = "^2.9.5"
+sqlalchemy-utils = "^0.39.0"
+faker = "^16.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
